@@ -1,0 +1,13 @@
+ToDo List:
+######################
+
+
+Have to be fixed:
+
+- 	Unit tab has to be fixed (Position of Unit- pictures and non existing units).	<< In theory easy but with my code 	quiet difficult. >:(
+- 	Create a new thread to capture the input to enable/ disable function xy.	<< Have to use delegate and such, 	don't know much about it therefore it will be hard. :o
+
+
+Ideas/ thoughts:
+
+- 	Add a production-tab (Look into a units (building) building que, if it's non-zero read what it's building and 		display it.					<< I ain't know shit about it yet. :D

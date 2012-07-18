@@ -1,0 +1,22 @@
+SC2 Patch 1.4.3 Offsets
+#################################
+_Minerals						026A9448	(int 32)		offset: 0x910
+_Gas							026A9450	(int 32)		offset: 0x910
+_Race							03257738	(char[4])		offset: 0x10
+_Worker	Amount					026A9368	(int 32)		offset: 0x910
+_Current Supply					026A9420	(int 32)  //Durch 4096	offset:	0x910
+_Max Supply						026A9418	(int 32)  //Durch 4096	offset: 0x910
+_PlayerName						026A8FC0	(char [])		offset: 0x910
+_Playername Lenght				026A8FB8	(int 32)		offset: 0x910
+_Armysize_Minerals				026A9730	(int 32)		offset: 0x910
+_Armysize_Gas					026A9750	(int 32)		offset: 0x910
+_Income_Minerals				026A94C8	(int 32)		offset: 0x910
+_Income_Gas						026A94D0	(int 32)		offset: 0x910
+_Buildings under construction	026A9318	(int 32)		offset: 0x910
+_Units Lost						026A9258	(int 32)		offset: 0x910
+_Players						02D536B0	(int 32)
+_Chat							16F4C28		(char[])		[ptr]0x14, 0x4, 0x4, 0x208, 0x3E8
+_MainBuilding_Count				026A93D8	(int 32)		offset:	0x910
+_Producing_Units				026A9288	(int 32)		offset:	0x910
+_Player_Color					026A9018	(int 32)		offset: 0x910
+_Player_Team					02648550	(int 8)			offset: 0x4

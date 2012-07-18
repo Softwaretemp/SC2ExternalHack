@@ -1,0 +1,15 @@
+﻿Colorresearch
+##########################
+Player 1 @ 026A9018, offset 910
+
+Code#		Color				ARGB
+1			Red					255,180,20,30
+2			Blue				255,0,66,255
+3			Teal				255,28,166,233
+4			Purple				255,84,0,129
+5			Yellow				255,234,224,41
+6			Orange				255,253,138,14
+7			Green				255,22,128,0
+8			Pink				255,228,91,175
+9			Violet				255,31,1,200
+10			Light Grey			255,82,84,148

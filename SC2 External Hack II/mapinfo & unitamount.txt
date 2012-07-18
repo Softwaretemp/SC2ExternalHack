@@ -1,0 +1,24 @@
+Map Top:
+
+Blistering Sands:
+499711
+
+Antiga Shipyard
+614399
+
+
+Unitamount
+
+Tal darim (TvT)
+196
+
+Shakuras Plateu (PvT)
+174
+
+Steppes of War (PvP)
+131
+
+
+Localplayer
+Not ingame = 16
+Ingame = 1

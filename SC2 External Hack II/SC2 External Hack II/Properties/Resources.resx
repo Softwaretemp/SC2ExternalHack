@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Gas_Protoss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Icons\Gas_Protoss.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gas_Terran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Icons\Gas_Terran.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gas_Zerg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Icons\Gas_Zerg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mineral_Protoss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Icons\Mineral_Protoss.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mineral_Terran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Icons\Mineral_Terran.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mineral_Zerg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Icons\Mineral_Zerg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Probe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Icons\P_Probe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Supply_Protoss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Icons\Supply_Protoss.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Supply_Terran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Icons\Supply_Terran.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Supply_Zerg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Icons\Supply_Zerg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tbunshee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\tbunshee.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\tghost.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thellion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\thellion.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tkreuzer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\tkreuzer.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tmarodeur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\tmarodeur.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tmedivac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\tmedivac.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tmule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\tmule.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tpanzer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\tpanzer.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="traven" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\traven.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="treaperx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\treaperx.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tspacemarine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\tspacemarine.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tthor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\tthor.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tviking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\tviking.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="twbfg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\twbfg.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_SCV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Icons\T_SCV.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_viking_boden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\terran\t-viking-boden.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Z_Drone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Icons\Z_Drone.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProcessView_ProcessView_No_SC2_found_" xml:space="preserve">
+    <value>No SC2 found!</value>
+  </data>
+  <data name="P_Archon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_Archon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Carrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_Carrier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Colossus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_Colossus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_DarkTemplar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_DarkTemplar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_HighTemplar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_HighTemplar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Immortal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_Immortal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_MotherShip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_MotherShip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Observer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_Observer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Phoenix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_Phoenix.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Probe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_Probe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Sentry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_Sentry.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Stalker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_Stalker.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_VoidRay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_VoidRay.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_WarpPrism" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_WarpPrism.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Zealot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\protoss\P_Zealot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_berstling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-berstling.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_brutlord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-brutlord.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_drohne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-drohne.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_formling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-formling.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_hydralisk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-hydralisk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_larve_queen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-larve-queen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_mutalisk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-mutalisk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_overlord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-overlord.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_overseer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-overseer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_queen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-queen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_schabe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-schabe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_schaender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-schaender.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_ultralisk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-ultralisk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_verseucher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-verseucher.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_zergling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Units\zerg\z-zergling.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

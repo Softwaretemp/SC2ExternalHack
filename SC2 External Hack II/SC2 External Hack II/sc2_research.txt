@@ -1,0 +1,49 @@
+Unitinfo
+#############
+Lenght: 0x1C0
+1st Unit: 	0x1DF3C00	(x)
+		0x1DF3C04	(y)
+
+
+Metalopolis:
+###################
+Max.:
+x = 614399
+y = 606207
+
+Min.:
+x = 40960
+y = 32768
+
+
+
+Devided by 4096:
++++++++++
+
+Max.:
+x = 149,999755859375
+y = 147,999755859375
+
+Min.:
+x = 10
+y = 8
+
+
+
+
+I need to devide each Pixel of the form by the devided result of the current value!
+Then multiply that result by the devided value!
+
+Minvalue for x:
+10 (40960 InGame) which means 1 (Form)
+
+Maxvalue for x:
+149,999755859375 (614399 InGame) which means 262 (Form)
+
+
+Steps from 40960 to 614399 => 26
+aka. 0 to 573439
+
+
+40960 + ((573439 / 262) * n)
+n = Pixel of Form
